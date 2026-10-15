@@ -168,3 +168,9 @@ url = "projects/"
 name = "학습 기록"
 weight = 3
 url = "posts/"
+
+
+[[languages.ko.menu.main]]
+name = "설정"
+weight = 4
+url = "settings/"

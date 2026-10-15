@@ -14,3 +14,7 @@ body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visibl
 /* Links remain identifiable without relying on color alone. */
 .content p a, .content li a, footer a { text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: .08em; }
 .portfolio-navigation a[aria-current="page"] { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: .15em; }
+
+.screen-settings { display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0; }
+.screen-settings button { font: inherit; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: .5rem; padding: .7rem 1.4rem; min-height: 4.4rem; cursor: pointer; }
+.screen-settings button[aria-pressed="true"] { font-weight: 700; border-width: 3px; text-decoration: underline; text-underline-offset: .2em; }
