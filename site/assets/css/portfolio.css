@@ -5,7 +5,7 @@
 .portfolio-navigation .navigation-list .navigation-item { float: none; margin: 0; }
 .portfolio-navigation .navigation-list .navigation-item a { display: inline-flex; align-items: center; min-height: 4.4rem; margin: 0; padding: .4rem .6rem; line-height: 1.5; }
 @media (max-width: 768px) { .portfolio-navigation .navigation-list { width: 100%; justify-content: flex-start; } }
-.portfolio-navigation button.colorscheme-toggle { display: inline-flex; align-items: center; gap: .4rem; font: inherit; font-size: 1.6rem; line-height: 1.5; color: inherit; background: transparent; cursor: pointer; border: 1px solid currentColor; border-radius: .4rem; padding: .4rem .6rem; min-width: 4.4rem; min-height: 4.4rem; }
+.portfolio-navigation button.colorscheme-toggle { position: static; inset: auto; z-index: auto; display: inline-flex; align-items: center; gap: .4rem; font: inherit; font-size: 1.6rem; line-height: 1.5; color: inherit; background: transparent; cursor: pointer; border: 1px solid currentColor; border-radius: .4rem; padding: .4rem .6rem; min-width: 4.4rem; min-height: 4.4rem; }
 a:focus-visible, button:focus-visible { outline: 3px solid #005fcc; outline-offset: 4px; border-radius: .2rem; }
 body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visible { outline-color: #ffdf70; }
 .content p, .content li, .content h1, .content h2, .content h3 { overflow-wrap: anywhere; }
