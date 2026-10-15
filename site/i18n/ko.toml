@@ -1,0 +1,7 @@
+# 테마(site/themes/template/i18n/ko.toml)에서 영어로 남아 있는 문구만 덮어쓴다.
+# 제목 옆 링크 아이콘의 화면 읽기 프로그램용 이름과 마우스 툴팁에 사용된다.
+[link_to_heading]
+other = "이 제목으로 바로 가는 링크"
+
+[entry_toc]
+other = "목차"
