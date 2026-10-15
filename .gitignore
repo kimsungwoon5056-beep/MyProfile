@@ -20,3 +20,7 @@ public
 
 # Generated local site output
 /site/public/
+
+# Python verification caches
+**/__pycache__/
+*.pyc
