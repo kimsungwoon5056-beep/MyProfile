@@ -20,3 +20,5 @@ body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visibl
 .screen-settings button[aria-pressed="true"] { font-weight: 700; border-width: 3px; text-decoration: underline; text-underline-offset: .2em; }
 .footer .back-to-top { margin: 0 0 .8rem; }
 .footer .back-to-top a { display: inline-flex; align-items: center; gap: .4rem; min-height: 4.4rem; padding: 0 .6rem; }
+.centered .about .home-info { margin: 1rem 0 .5rem; font-size: 2.4rem; font-weight: 600; line-height: 3.2rem; }
+@media only screen and (max-width: 768px) { .centered .about .home-info { font-size: 2rem; line-height: 3rem; } }

@@ -1,0 +1,5 @@
+<h1>{{ .Site.Params.author }}</h1>
+{{/* 소개 문구는 아래에 내용이 이어지는 섹션 제목이 아니므로 테마의 h2 대신 문단으로 출력한다. 모양은 portfolio.css의 .home-info가 맞춘다. */}}
+{{ with .Site.Params.info }}
+<p class="home-info">{{ if reflect.IsSlice . }}{{ range $i, $line := . }}{{ if $i }}<br>{{ end }}{{ $line | markdownify }}{{ end }}{{ else }}{{ . | markdownify }}{{ end }}</p>
+{{ end }}
