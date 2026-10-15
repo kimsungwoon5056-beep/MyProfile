@@ -1,28 +1,33 @@
 ---
-title: "포트폴리오 첫 배포와 소개 수정"
+title: "Hugo 포트폴리오 첫 배포와 개선 기록"
 date: 2026-10-15
 draft: false
 ---
 
-초급프로젝트 과제의 개인 포트폴리오 사이트를 인터넷에 공개하기 위해 Hugo Coder 테마와 수업에서 제공한 준비 스크립트를 사용했습니다.
+2026년 10월 15일부터 진행 중인 개인 수업 과제입니다. Hugo Coder와 수업 제공 준비 스크립트로 사이트를 공개하고, 이후 수정·검증을 이어가고 있습니다. [대표 활동의 목적과 역할](../../projects/)에 전체 내용을 정리했습니다.
 
-## 진행한 작업
+## 직접 진행한 초기 작업
 
 1. Hugo Coder 테마를 ZIP으로 다운로드하고 압축을 풀었습니다.
 2. 준비 스크립트에 MyProfile 저장소 주소를 입력해 배포 파일을 생성했습니다.
-3. Git Bash에서 파일을 커밋하고 main 브랜치를 GitHub에 올렸습니다.
-4. GitHub Actions의 첫 배포 성공과 공개 홈페이지를 확인했습니다.
-5. AI의 안내를 참고해 설정 파일의 이름, 소개와 GitHub 링크를 수정하고 커밋했습니다.
+3. Git Bash에서 초기 파일을 커밋하고 main 브랜치에 push했습니다.
+4. AI 안내를 참고하여 이름·소개·GitHub 링크를 변경하고 직접 커밋·push했습니다.
 
-## 확인한 결과
-
-첫 배포에서는 Coder 예시 홈페이지가 공개 주소에서 열렸습니다. 이후 이름과 소개를 본인 내용으로 바꾼 커밋도 원격 main 브랜치에 올렸습니다.
+스크립트 파일명을 `prepate_github_pages.py`로 잘못 입력했을 때 파일을 찾을 수 없다는 오류가 발생했습니다. 실제 이름인 `prepare_github_pages.py`로 실행하자 배포 파일 준비가 완료됐습니다.
 
 - [첫 배포 실행 기록](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38719626580)
-- [이름·소개·GitHub 링크 수정 기록](https://github.com/kimsungwoon5056-beep/MyProfile/commit/8816b84)
+- [직접 수행한 이름·소개 수정 커밋](https://github.com/kimsungwoon5056-beep/MyProfile/commit/8816b84)
 
-## 배운 점과 다음 확인
+## AI 지원으로 보완한 내용
 
-준비 스크립트 실행과 GitHub 업로드는 별도의 단계이며, 파일을 올린 뒤 Actions와 공개 화면을 확인해야 한다는 점을 배웠습니다. git diff에서는 수정 전후 내용을 비교할 수 있고, 보기 화면은 q 키로 종료할 수 있습니다.
+한국어 메뉴·본문, 작은 화면의 상시 메뉴, 키보드 초점 표시와 화면 모드 버튼, 글꼴·아이콘 경로, README를 Codex 지원으로 보완했습니다. 단순 문구 수정과 실제 기능 변경을 구분해 커밋했습니다.
 
-다음에는 한국어 메뉴의 연결과 모바일 화면을 확인하고, 진행 중인 프로젝트의 실제 중간 결과를 정리할 계획입니다.
+- [키보드 초점과 줄바꿈 보완](https://github.com/kimsungwoon5056-beep/MyProfile/commit/76892ee)
+- [글꼴 배포 경로 수정](https://github.com/kimsungwoon5056-beep/MyProfile/commit/ad4e8f3)
+- [검사 결과와 확인 범위](https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/verification/2026-10-16.md)
+
+## 확인 결과와 다음 작업
+
+AI가 도구로 로컬 빌드·공개 배포·390px 화면·키보드 동작을 검사하고 기록했습니다. 이 결과는 본인의 직접 검사와 구분합니다. 실제 본인 확인 범위는 별도 보고서에 기록할 예정입니다.
+
+초기 작업에서 스크립트 실행, Git 업로드, Actions 배포, 실제 화면 확인이 각각 필요한 단계임을 배웠습니다. 다음에는 변경 파일과 화면의 연결을 직접 확인하고, 화면 확대와 연속 키보드 조작을 재현해 검사 기록을 남기겠습니다.
