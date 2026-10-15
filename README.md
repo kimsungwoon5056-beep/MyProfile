@@ -79,7 +79,7 @@ git push origin main
 | 자료 | 출처 | 사용과 고지 |
 |---|---|---|
 | Hugo Coder 테마 | https://github.com/luizdepra/hugo-coder | MIT. 루트 `LICENSE.md`와 테마 내부 고지를 유지합니다. |
-| 테마 기본 아바타·아이콘·글꼴 | `site/themes/template` 및 `site/static/images/avatar.jpg` | 외부 테마에 포함된 자료입니다. 아바타는 본인 얼굴 사진이 아닌 장식용 실루엣입니다. 아이콘·글꼴의 라이선스는 테마의 `LICENSE.md`와 `LICENSE.fontawesome` 등을 확인합니다. |
+| 테마 기본 아바타·아이콘·글꼴 | `site/themes/template` 및 `site/static/images/avatar.jpg` | 외부 테마에 포함된 자료입니다. 아바타는 본인 얼굴 사진이 아닌 장식용 실루엣입니다. 아이콘·글꼴의 라이선스는 테마의 `LICENSE.md`, `static/fonts/LICENSE.txt`, `assets/scss/font-awesome/LICENSE.txt`를 확인합니다. |
 | SimCheong 설명과 코드 링크 | https://github.com/yoosunu/SimCheong | 이전 팀 자료의 출처 링크입니다. 해당 코드를 이 저장소에 복제하거나 개인 구현 성과로 표시하지 않습니다. 재사용 시 원저작자의 이용 조건을 별도로 확인합니다. |
 | 소개·학습 목표·프로젝트 설명 | 본인 제공 정보 및 Codex의 문안 정리 지원 | AI 도움을 받아 작성했습니다. 담당 예정·향후 계획과 실제 완료 작업을 구분합니다. |
 | 한국어 설정·메뉴·접근성 개선 코드와 문서 | 본인 과제 작업 및 Codex 지원 | AI가 설정·코드·문서 작성과 검증을 지원했습니다. 세부 사례와 본인의 판단·직접 확인 결과는 LMS 제출 보고서에 기록합니다. |
