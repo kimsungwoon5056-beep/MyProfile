@@ -1,4 +1,5 @@
 +++
+draft = true
 authors = ["Programador Solitário"]
 title = "Configuração de Equações Matemáticas"
 date = "2023-07-10"

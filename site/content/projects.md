@@ -1,6 +1,6 @@
-+++
-title = "Projects"
-slug = "projects"
-+++
+---
+title: "프로젝트"
+draft: false
+---
 
-Nothing to see here... Move along!
+현재 진행 중인 프로젝트가 있습니다. 프로젝트의 목적, 담당 작업과 중간 결과는 정리한 뒤 이 페이지에 추가할 예정입니다.

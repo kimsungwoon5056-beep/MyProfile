@@ -1,4 +1,5 @@
 +++
+draft = true
 authors = ["Lone Coder"]
 title = "Rich Content"
 date = "2023-07-12"

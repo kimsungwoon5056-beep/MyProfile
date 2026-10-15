@@ -1,4 +1,5 @@
 +++
+draft = true
 authors = ["Lone Coder"]
 title = "HTML and CSS only tabs"
 date = "2023-07-09"

@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "Contact"
 slug = "contact"
 +++

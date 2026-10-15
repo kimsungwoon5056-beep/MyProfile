@@ -1,4 +1,5 @@
 +++
+draft = true
 authors = ["Lone Coder"]
 title = "Markdown Syntax Guide"
 date = "2023-07-13"
