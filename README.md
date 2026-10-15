@@ -42,3 +42,34 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 `.github/workflows/hugo-pages.yml`은 main push를 받아 사이트를 빌드하고 GitHub Pages에 배포합니다. 현재 지정값은 Python 3.12, Node.js 24, Go 1.27.1, Hugo Extended 0.167.0, Dart Sass 1.105.0입니다. 의존성 준비와 경로 보정은 `.github/pages_build.py`가 수행합니다. 준비 스크립트 버전은 3.1입니다.
 
 새 ZIP으로 처음 준비할 때는 Python 3.9 이상에서 제공된 `prepare_github_pages.py`를 사용했습니다. 이 저장소를 clone한 뒤에는 준비 스크립트를 다시 실행할 필요가 없습니다.
+
+## 수정과 재배포
+
+| 수정 대상 | 파일 |
+|---|---|
+| 이름·언어·메뉴·GitHub 링크 | `site/hugo.toml` |
+| 운영 주소와 빌드 설정 | `site/pages.json` |
+| 자기소개·관심 분야·학습 계획 | `site/content/about.md` |
+| 캡스톤 소개와 본인 역할 | `site/content/projects.md` |
+| 학습 글과 목록 | `site/content/posts/` |
+| 이미지 등 정적 파일 | `site/static/` |
+| 사이트 고유 스타일 | `site/assets/css/portfolio.css` |
+| 메뉴·테마 버튼 등 템플릿 덮어쓰기 | `site/layouts/_partials/` |
+
+`exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 원본 예시 글은 `draft = true`로 보관하며 일반 빌드에는 게시하지 않습니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
+
+수정 후 로컬에서 확인한 다음 저장소 루트에서 변경한 파일만 기록합니다. 예를 들어 소개 파일 수정은 다음과 같습니다.
+
+```bash
+git --no-pager diff -- site/content/about.md
+git add site/content/about.md
+git commit -m "소개 페이지의 실제 학습 경험 보완"
+git push origin main
+```
+
+1. GitHub 저장소 Settings → Pages → Source를 GitHub Actions로 설정합니다.
+2. [Actions](https://github.com/kimsungwoon5056-beep/MyProfile/actions)에서 push한 커밋의 build와 deploy 성공을 확인합니다.
+3. 공개 사이트에서 변경한 페이지를 새로고침하고 실제 내용과 링크를 확인합니다.
+4. 실패했다면 실패 단계의 로그를 확인하고 원인을 수정한 뒤 다시 커밋·push합니다.
+
+제출할 때는 `git rev-parse HEAD`의 전체 SHA, 해당 커밋 URL과 Actions 실행 URL을 기록합니다. 보고서 작성 후 사이트를 수정했다면 보고서의 버전 정보와 캡처도 함께 갱신합니다.
