@@ -99,3 +99,15 @@ python verification/check_site.py public --base-url https://kimsungwoon5056-beep
 ```
 
 검사는 HTML과 CSS가 참조한 내부 파일, 앵커, 문서 언어와 이미지 alt 속성을 확인합니다. `issues`가 빈 목록이면 해당 정적 검사에서 문제가 발견되지 않은 것입니다. 외부 링크 응답, JavaScript 실행, 화면 배치와 확대, 색상 대비는 브라우저에서 별도로 확인해야 합니다. 검사 실패 시 종료 코드가 1이므로 출력된 경로를 수정한 뒤 같은 명령으로 재검사합니다.
+
+### 배포 전 자동 검사
+
+main을 push하면 Hugo 빌드와 프로젝트 경로 보정 다음에 검사 도구의 회귀 검사 6건과 실제 생성 결과 검사가 실행됩니다. 둘 중 하나라도 실패하면 산출물 업로드와 배포 단계로 진행하지 않습니다. 검사 결과는 Actions의 `Test site checker`와 `Check generated site before publication` 로그에 표시됩니다. 이 검사는 화면 배치·화면 모드·브라우저 조작의 직접 검사를 대신하지 않습니다.
+
+검사 도구만 확인하려면 저장소 루트에서 실행합니다.
+
+```bash
+python -m unittest discover -s verification -p 'test_*.py' -v
+```
+
+정상 하위 경로·한글 앵커·CSS 참조는 허용하고, 없는 파일·없는 앵커·배포 경로 밖 주소·개인 PC 주소·HTTP 주소·빈 링크·잘못된 언어·누락된 alt가 발견되는지 확인합니다. 임시 폴더의 검사 전용 예시를 사용하므로 실제 사이트 파일을 바꾸지 않습니다.
