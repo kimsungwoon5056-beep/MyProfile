@@ -17,3 +17,6 @@ public
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# Generated local site output
+/site/public/
