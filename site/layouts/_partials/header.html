@@ -5,13 +5,6 @@
       {{ range .Site.Menus.main }}
       <li class="navigation-item"><a class="navigation-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
       {{ end }}
-      {{ if not .Site.Params.hideColorSchemeToggle }}
-      <li class="navigation-item">
-        <button type="button" id="dark-mode-toggle" class="colorscheme-toggle" aria-label="밝은 화면과 어두운 화면 전환">
-          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i> 화면 모드
-        </button>
-      </li>
-      {{ end }}
     </ul>
   </section>
 </nav>
