@@ -89,3 +89,13 @@ git push origin main
 ## 검증 기록
 
 검사 절차와 실제 결과는 `verification/`에 기록합니다. 이는 AI가 도구로 검사한 기록이며 본인의 직접 검사와 구분합니다. PDF 보고서에는 본인이 직접 확인한 범위와 실제 결과를 별도로 적습니다.
+
+### 생성 결과 경로 검사
+
+위 빌드를 마친 뒤 저장소 루트에서 Python 3.9 이상으로 실행합니다. Windows Git Bash에서는 `python` 대신 `py`를 사용할 수 있습니다.
+
+```bash
+python verification/check_site.py public --base-url https://kimsungwoon5056-beep.github.io/MyProfile/
+```
+
+검사는 HTML과 CSS가 참조한 내부 파일, 앵커, 문서 언어와 이미지 alt 속성을 확인합니다. `issues`가 빈 목록이면 해당 정적 검사에서 문제가 발견되지 않은 것입니다. 외부 링크 응답, JavaScript 실행, 화면 배치와 확대, 색상 대비는 브라우저에서 별도로 확인해야 합니다. 검사 실패 시 종료 코드가 1이므로 출력된 경로를 수정한 뒤 같은 명령으로 재검사합니다.
