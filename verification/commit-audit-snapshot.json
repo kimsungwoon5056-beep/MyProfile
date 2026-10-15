@@ -1,10 +1,10 @@
 {
-  "final_sha": "c1ebd68e5c30b5f4b099ece14fcebac04d816f1d",
+  "final_sha": "4a9f08af271e9624fca95ce8623463915044b089",
   "initial_sha": "547019df2db11f58b853cd12ee8e0240a36416bc",
   "initial_included": false,
-  "total": 34,
+  "total": 53,
   "excluded": 1,
-  "candidates": 33,
+  "candidates": 52,
   "grading_status": "Provisional evidence only: inspect linked diffs and rubric. Not a claim of 50 valid commits.",
   "records": [
     {
@@ -493,6 +493,295 @@
       "files": [
         ".gitignore",
         "verification/audit_commits.py"
+      ]
+    },
+    {
+      "sha": "80fb48303b4fabdf51875d9e07190b009139ace4",
+      "subject": "커밋별 집계 근거와 재현 방법 및 설정 기능 본인 정상 확인 기록",
+      "file_count": 3,
+      "additions": 525,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/80fb48303b4fabdf51875d9e07190b009139ace4",
+      "files": [
+        "README.md",
+        "verification/2026-10-16.md",
+        "verification/commit-audit-snapshot.json"
+      ]
+    },
+    {
+      "sha": "1bae341bfa743f0c59fa6b2ac8a0ed23a3da6d2c",
+      "subject": "제목 링크 아이콘의 영어 안내 문구를 한국어로 덮어쓰기",
+      "file_count": 1,
+      "additions": 7,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1bae341bfa743f0c59fa6b2ac8a0ed23a3da6d2c",
+      "files": [
+        "site/i18n/ko.toml"
+      ]
+    },
+    {
+      "sha": "0ef1e4b5723040c62c5f7fdb779bfbc2b0417696",
+      "subject": "사용하지 않는 태그·카테고리 분류 목록 페이지 생성 중단",
+      "file_count": 1,
+      "additions": 2,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/0ef1e4b5723040c62c5f7fdb779bfbc2b0417696",
+      "files": [
+        "site/hugo.toml"
+      ]
+    },
+    {
+      "sha": "1f9e25e0ec12c0cab9f8837f4865e956f094ee32",
+      "subject": "Hugo 0.158 이후 사용 중단된 언어 설정 키를 새 이름으로 변경",
+      "file_count": 1,
+      "additions": 2,
+      "deletions": 2,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1f9e25e0ec12c0cab9f8837f4865e956f094ee32",
+      "files": [
+        "site/hugo.toml"
+      ]
+    },
+    {
+      "sha": "3a932b8057cec093e098a3d6613e25309c7c7584",
+      "subject": "페이지별 설명을 지정해 메타 설명에 제목 링크 문구가 섞이지 않게 수정",
+      "file_count": 5,
+      "additions": 5,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/3a932b8057cec093e098a3d6613e25309c7c7584",
+      "files": [
+        "site/content/about.md",
+        "site/content/posts/_index.md",
+        "site/content/posts/first-deployment.md",
+        "site/content/projects.md",
+        "site/content/settings.md"
+      ]
+    },
+    {
+      "sha": "f8a3a40ff105d99063ccd22dd2e4272cc1a08192",
+      "subject": "배포 폴더에 남은 테마 예시 글·인물·이미지 삭제",
+      "file_count": 29,
+      "additions": 1,
+      "deletions": 1325,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/f8a3a40ff105d99063ccd22dd2e4272cc1a08192",
+      "files": [
+        "README.md",
+        "site/content/about.pt-br.md",
+        "site/content/authors/hugo-authors/_index.md",
+        "site/content/authors/hugo-authors/_index.pt-br.md",
+        "site/content/categories/syntax/_index.pt-br.md",
+        "site/content/categories/themes/_index.pt-br.md",
+        "site/content/contact.md",
+        "site/content/contact.pt-br.md",
+        "site/content/posts/emoji-support.md",
+        "site/content/posts/emoji-support.pt-br.md",
+        "site/content/posts/external-post.md",
+        "site/content/posts/external-post.pt-br.md",
+        "site/content/posts/html-and-css-only-tabs.md",
+        "site/content/posts/html-and-css-only-tabs.pt-br.md",
+        "site/content/posts/markdown-syntax.md",
+        "site/content/posts/markdown-syntax.pt-br.md",
+        "site/content/posts/math-typesetting.md",
+        "site/content/posts/math-typesetting.pt-br.md",
+        "site/content/posts/mermaid-support.md",
+        "site/content/posts/mermaid-support.pt-br.md",
+        "site/content/posts/more-rich-content.md",
+        "site/content/posts/more-rich-content.pt-br.md",
+        "site/content/posts/placeholder-text.md",
+        "site/content/posts/placeholder-text.pt-br.md",
+        "site/content/posts/rich-content.md",
+        "site/content/posts/rich-content.pt-br.md",
+        "site/content/projects.pt-br.md",
+        "site/content/tags/shortcodes/_index.pt-br.md",
+        "site/static/images/N90.jpg"
+      ]
+    },
+    {
+      "sha": "8e6a403abc2a3b77be8d0de466335c2558ac310c",
+      "subject": "프로젝트 페이지의 본인 검사 결과를 현재 상태로 갱신",
+      "file_count": 1,
+      "additions": 7,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8e6a403abc2a3b77be8d0de466335c2558ac310c",
+      "files": [
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "f21015da9e962f62a0f78bd0f420b393e7c815f7",
+      "subject": "학습 기록에 Edge 키보드 이동과 설정 메뉴 직접 검사 결과 추가",
+      "file_count": 1,
+      "additions": 6,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/f21015da9e962f62a0f78bd0f420b393e7c815f7",
+      "files": [
+        "site/content/posts/first-deployment.md"
+      ]
+    },
+    {
+      "sha": "ec7be330b1089e39a72babf2eed91be3742e94a9",
+      "subject": "예시 콘텐츠 정리·표기 개선 검증과 push 자동 배포 #21 결과 기록",
+      "file_count": 1,
+      "additions": 26,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ec7be330b1089e39a72babf2eed91be3742e94a9",
+      "files": [
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "bbc89ece1b2d59f73de40e67c92fb0cbc42a4afc",
+      "subject": "README 수정 파일 표에 설정 페이지·화면 모드·i18n 위치 반영",
+      "file_count": 2,
+      "additions": 10,
+      "deletions": 4,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/bbc89ece1b2d59f73de40e67c92fb0cbc42a4afc",
+      "files": [
+        "README.md",
+        "site/layouts/_partials/float.html"
+      ]
+    },
+    {
+      "sha": "a09725de4b1f7459f3a8c92acfcafdb624049015",
+      "subject": "README 출처 표에 사용한 AI 도구별 기간·범위와 직접 수행 작업 구분 추가",
+      "file_count": 1,
+      "additions": 11,
+      "deletions": 2,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/a09725de4b1f7459f3a8c92acfcafdb624049015",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "40cb0a7dfcd11d26280de98b73515b48a2007edf",
+      "subject": "학습 기록에 GitHub Pages 배포 실패(#18·#19)와 복구·재검증 글 추가",
+      "file_count": 1,
+      "additions": 39,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/40cb0a7dfcd11d26280de98b73515b48a2007edf",
+      "files": [
+        "site/content/posts/deploy-failure-recovery.md"
+      ]
+    },
+    {
+      "sha": "d8ead0197e8d954891a4521b21c177bef52afcb9",
+      "subject": "프로젝트 산출물 목록에 배포 실패와 복구 기록 연결",
+      "file_count": 1,
+      "additions": 1,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/d8ead0197e8d954891a4521b21c177bef52afcb9",
+      "files": [
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "d43e87ce9120f2657b025ef0cf9068f3ba22f5ed",
+      "subject": "새 환경 clone 빌드·어두운 화면 대비·외부 링크 19개 검사와 날짜 시간대 문제 기록",
+      "file_count": 1,
+      "additions": 21,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/d43e87ce9120f2657b025ef0cf9068f3ba22f5ed",
+      "files": [
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "cd01a66ee7d6c26fce9a07203b356c5fdd10c3cc",
+      "subject": "배포 복구 글에 #19 재실행과 #20 수동 실행을 직접 수행했음을 반영",
+      "file_count": 2,
+      "additions": 3,
+      "deletions": 3,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/cd01a66ee7d6c26fce9a07203b356c5fdd10c3cc",
+      "files": [
+        "site/content/posts/deploy-failure-recovery.md",
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "f97f754a5e632f153ac2019b4cb19c8e408ca43b",
+      "subject": "글 날짜의 기본 시간대를 Asia/Seoul로 지정하고 README에 새 글 작성 규칙 추가",
+      "file_count": 2,
+      "additions": 4,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/f97f754a5e632f153ac2019b4cb19c8e408ca43b",
+      "files": [
+        "README.md",
+        "site/hugo.toml"
+      ]
+    },
+    {
+      "sha": "1b4cef0eb7f3dac44c238aacabdb0b061a851a1a",
+      "subject": "모든 페이지 푸터에 상단 메뉴로 돌아가는 '맨 위로' 링크 추가",
+      "file_count": 4,
+      "additions": 25,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1b4cef0eb7f3dac44c238aacabdb0b061a851a1a",
+      "files": [
+        "README.md",
+        "site/assets/css/portfolio.css",
+        "site/layouts/_partials/footer.html",
+        "site/layouts/_partials/header.html"
+      ]
+    },
+    {
+      "sha": "db8e3363af1dd7837c36f3cd8fdc731041051c06",
+      "subject": "공개 사이트 푸터에 실제 배포된 커밋 SHA 표시",
+      "file_count": 3,
+      "additions": 8,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/db8e3363af1dd7837c36f3cd8fdc731041051c06",
+      "files": [
+        ".github/workflows/hugo-pages.yml",
+        "README.md",
+        "site/layouts/_partials/footer.html"
+      ]
+    },
+    {
+      "sha": "4a9f08af271e9624fca95ce8623463915044b089",
+      "subject": "시간대 설정·맨 위로 링크·푸터 배포 버전 표시의 검사 결과 기록",
+      "file_count": 1,
+      "additions": 16,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/4a9f08af271e9624fca95ce8623463915044b089",
+      "files": [
+        "verification/2026-10-16.md"
       ]
     }
   ]
