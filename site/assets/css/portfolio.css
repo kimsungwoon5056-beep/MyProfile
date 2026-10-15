@@ -6,3 +6,8 @@
 .portfolio-navigation .navigation-list .navigation-item a { display: inline-flex; align-items: center; min-height: 4.4rem; margin: 0; padding: .4rem .6rem; line-height: 1.5; }
 @media (max-width: 768px) { .portfolio-navigation .navigation-list { width: 100%; justify-content: flex-start; } }
 .float-container button.colorscheme-toggle { font: inherit; color: inherit; cursor: pointer; border: 1px solid currentColor; border-radius: .4rem; padding: .8rem; min-width: 4.4rem; min-height: 4.4rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #005fcc; outline-offset: 4px; border-radius: .2rem; }
+body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visible { outline-color: #ffdf70; }
+.content p, .content li, .content h1, .content h2, .content h3 { overflow-wrap: anywhere; }
+.content img { max-width: 100%; height: auto; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
