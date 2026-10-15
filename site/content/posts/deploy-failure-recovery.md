@@ -12,7 +12,7 @@ draft: false
 | 실행 | 커밋 | 결과 |
 |---|---|---|
 | [#18](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38769538880) | `8fa5722` | build 성공(01:30), deploy 단계가 01:30:54부터 10분 29초 동안 진행되다 `Timeout reached, aborting!`으로 실패 |
-| [#19](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38769827390) | `80fb483` | build 성공(01:41), deploy가 `due to in progress deployment. Please cancel 8fa5722… first` 오류(HTTP 400)로 실패. 01:47 **Re-run failed jobs**로 다시 실행했지만 같은 오류 |
+| [#19](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38769827390) | `80fb483` | build 성공(01:41), deploy가 `due to in progress deployment. Please cancel 8fa5722… first` 오류(HTTP 400)로 실패. 01:47 직접 **Re-run failed jobs**로 다시 실행했지만 같은 오류 |
 
 공개 사이트는 그동안 마지막으로 성공한 #17 버전으로 정상 표시되었습니다. 실패한 것은 새 버전으로 바꾸는 단계뿐이었습니다.
 
@@ -26,7 +26,7 @@ draft: false
 ## 조치와 재검증
 
 1. 실패 직후 다시 실행하면 같은 이유로 막힌다는 것을 #19 재실행(01:47)에서 확인했습니다.
-2. 시간이 지난 뒤 같은 커밋 `80fb483`으로 워크플로를 수동 실행한 [#20](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38774612085)이 02:07에 build·deploy 모두 성공했습니다.
+2. 시간이 지난 뒤 Actions 화면에서 직접 **Run workflow**를 눌러 같은 커밋 `80fb483`으로 수동 실행한 [#20](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38774612085)이 02:07에 build·deploy 모두 성공했습니다.
 3. 수동 실행만으로는 push 자동 배포를 증명할 수 없어서, 다음 수정 커밋 `f21015d`를 push했고 [#21](https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38776672685)이 push 이벤트로 자동 시작되어 약 50초 만에 배포까지 성공했습니다. 이후 push한 #22도 성공했습니다.
 4. 공개 사이트에서 #21에 포함된 변경(프로젝트 페이지 문장 갱신)이 실제로 보이는 것을 확인했습니다.
 
