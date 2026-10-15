@@ -111,3 +111,14 @@ python -m unittest discover -s verification -p 'test_*.py' -v
 ```
 
 정상 하위 경로·한글 앵커·CSS 참조는 허용하고, 없는 파일·없는 앵커·배포 경로 밖 주소·개인 PC 주소·HTTP 주소·빈 링크·잘못된 언어·누락된 alt가 발견되는지 확인합니다. 임시 폴더의 검사 전용 예시를 사용하므로 실제 사이트 파일을 바꾸지 않습니다.
+
+
+### 유효 커밋 집계의 재현
+
+저장소 루트에서 최종 제출할 SHA 또는 `HEAD`를 지정합니다. 결과 파일은 저장소 밖의 원하는 위치에 저장할 수 있습니다.
+
+```bash
+python verification/audit_commits.py --ref HEAD --output ../MyProfile-commit-audit.json
+```
+
+결과의 `final_sha`가 실제 집계 끝점입니다. 전체 수에서 초기 ZIP 등록과 빈 변경·자체 변경이 없는 병합·생성 결과만의 변경을 보수적으로 제외하고 나머지는 `candidate`로 표시합니다. 후보를 최종 인정 개수로 자동 확정하지 않습니다. 각 커밋의 diff와 과제 기준을 직접 대조해야 합니다. 검증 기록의 스냅샷은 기록된 SHA까지만 포함하므로 제출 전 다시 실행합니다.

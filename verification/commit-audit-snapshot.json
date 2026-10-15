@@ -1,0 +1,499 @@
+{
+  "final_sha": "c1ebd68e5c30b5f4b099ece14fcebac04d816f1d",
+  "initial_sha": "547019df2db11f58b853cd12ee8e0240a36416bc",
+  "initial_included": false,
+  "total": 34,
+  "excluded": 1,
+  "candidates": 33,
+  "grading_status": "Provisional evidence only: inspect linked diffs and rubric. Not a claim of 50 valid commits.",
+  "records": [
+    {
+      "sha": "547019df2db11f58b853cd12ee8e0240a36416bc",
+      "subject": "초기 Hugo 사이트 및 GitHub Pages 배포 설정",
+      "file_count": 474,
+      "additions": 32479,
+      "deletions": 0,
+      "status": "excluded",
+      "reason": "Initial theme ZIP registration mixed with setup; conservatively excluded.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/547019df2db11f58b853cd12ee8e0240a36416bc"
+    },
+    {
+      "sha": "8816b84d6d0f520b9e950620db7906f4b9f4e3d1",
+      "subject": "홈페이지 이름과 소개 및 GitHub 링크 변경",
+      "file_count": 1,
+      "additions": 5,
+      "deletions": 6,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8816b84d6d0f520b9e950620db7906f4b9f4e3d1",
+      "files": [
+        "site/hugo.toml"
+      ]
+    },
+    {
+      "sha": "6e23ed32dc6c2c6d23bfa81bbc775482fe527fea",
+      "subject": "한국어 메뉴 구성과 예시 콘텐츠 정리 및 학습 기록 추가",
+      "file_count": 32,
+      "additions": 93,
+      "deletions": 116,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/6e23ed32dc6c2c6d23bfa81bbc775482fe527fea",
+      "files": [
+        "site/content/about.md",
+        "site/content/about.pt-br.md",
+        "site/content/authors/hugo-authors/_index.md",
+        "site/content/authors/hugo-authors/_index.pt-br.md",
+        "site/content/categories/syntax/_index.pt-br.md",
+        "site/content/categories/themes/_index.pt-br.md",
+        "site/content/contact.md",
+        "site/content/contact.pt-br.md",
+        "site/content/posts/_index.md",
+        "site/content/posts/emoji-support.md",
+        "site/content/posts/emoji-support.pt-br.md",
+        "site/content/posts/external-post.md",
+        "site/content/posts/external-post.pt-br.md",
+        "site/content/posts/first-deployment.md",
+        "site/content/posts/html-and-css-only-tabs.md",
+        "site/content/posts/html-and-css-only-tabs.pt-br.md",
+        "site/content/posts/markdown-syntax.md",
+        "site/content/posts/markdown-syntax.pt-br.md",
+        "site/content/posts/math-typesetting.md",
+        "site/content/posts/math-typesetting.pt-br.md",
+        "site/content/posts/mermaid-support.md",
+        "site/content/posts/mermaid-support.pt-br.md",
+        "site/content/posts/more-rich-content.md",
+        "site/content/posts/more-rich-content.pt-br.md",
+        "site/content/posts/placeholder-text.md",
+        "site/content/posts/placeholder-text.pt-br.md",
+        "site/content/posts/rich-content.md",
+        "site/content/posts/rich-content.pt-br.md",
+        "site/content/projects.md",
+        "site/content/projects.pt-br.md",
+        "site/content/tags/shortcodes/_index.pt-br.md",
+        "site/hugo.toml"
+      ]
+    },
+    {
+      "sha": "8df8837028d8df3b308d61a7a7f46cacdf99939f",
+      "subject": "소개 페이지에 학적과 개발 목표 및 관심 분야 작성",
+      "file_count": 1,
+      "additions": 8,
+      "deletions": 2,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8df8837028d8df3b308d61a7a7f46cacdf99939f",
+      "files": [
+        "site/content/about.md"
+      ]
+    },
+    {
+      "sha": "d5923e4a987dfe91e6ce809f13b0344d4e5c549d",
+      "subject": "소개 페이지에 학습 목표와 단계별 실행 계획 추가",
+      "file_count": 1,
+      "additions": 16,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/d5923e4a987dfe91e6ce809f13b0344d4e5c549d",
+      "files": [
+        "site/content/about.md"
+      ]
+    },
+    {
+      "sha": "a08350cc909a150df0744d0eff4fb9804116b5b8",
+      "subject": "SimCheong 프로젝트 배경과 기존 구현 및 진행 상태 작성",
+      "file_count": 1,
+      "additions": 21,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/a08350cc909a150df0744d0eff4fb9804116b5b8",
+      "files": [
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "1a8ab9ffca077eccb34dd7e17aaaa12570d0f198",
+      "subject": "프로젝트 담당 예정 역할과 개인 검증 계획 명시",
+      "file_count": 1,
+      "additions": 14,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1a8ab9ffca077eccb34dd7e17aaaa12570d0f198",
+      "files": [
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "9e26b677de172e70d6cce67034d7eac4d5c2b0b0",
+      "subject": "README에 과제 사이트 설치와 실제 빌드 및 미리보기 명령 안내",
+      "file_count": 1,
+      "additions": 29,
+      "deletions": 38,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/9e26b677de172e70d6cce67034d7eac4d5c2b0b0",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "afb8601bdad5a74b44c0eae92952d9166c7ac0cd",
+      "subject": "README에 수정 파일 위치와 main 재배포 및 제출 버전 확인 절차 추가",
+      "file_count": 1,
+      "additions": 31,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/afb8601bdad5a74b44c0eae92952d9166c7ac0cd",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "4587e5ed3fb8b50f11649db284651762a45f94ab",
+      "subject": "README에 테마와 외부 자료 출처 및 AI 지원 범위 명시",
+      "file_count": 1,
+      "additions": 16,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/4587e5ed3fb8b50f11649db284651762a45f94ab",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "595149547bf1823a540763eb0e2450d6187e9184",
+      "subject": "작은 화면에서도 키보드로 바로 접근할 수 있는 상시 메뉴 적용",
+      "file_count": 3,
+      "additions": 18,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/595149547bf1823a540763eb0e2450d6187e9184",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/hugo.toml",
+        "site/layouts/_partials/header.html"
+      ]
+    },
+    {
+      "sha": "cd0efc97945619f34830d03ffee281b58222c14f",
+      "subject": "테마 전환을 키보드로 실행 가능한 이름 있는 버튼으로 변경",
+      "file_count": 2,
+      "additions": 8,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/cd0efc97945619f34830d03ffee281b58222c14f",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/layouts/_partials/float.html"
+      ]
+    },
+    {
+      "sha": "9e6f9534a4c7bfae4dfefd8c8e6a948b81f17ca8",
+      "subject": "이름 옆 장식용 실루엣의 대체 텍스트와 이미지 크기 정리",
+      "file_count": 1,
+      "additions": 3,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/9e6f9534a4c7bfae4dfefd8c8e6a948b81f17ca8",
+      "files": [
+        "site/layouts/_partials/home/avatar.html"
+      ]
+    },
+    {
+      "sha": "76892eeab7cebc88a0282241f36414e16e35c065",
+      "subject": "키보드 초점 표시와 긴 본문 줄바꿈 및 동작 효과 축소 지원",
+      "file_count": 1,
+      "additions": 5,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/76892eeab7cebc88a0282241f36414e16e35c065",
+      "files": [
+        "site/assets/css/portfolio.css"
+      ]
+    },
+    {
+      "sha": "ad4e8f38b24a576eb06f33dee1b5e22cff37a086",
+      "subject": "글꼴 미리 로딩 주소에 MyProfile 배포 경로 적용",
+      "file_count": 1,
+      "additions": 25,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ad4e8f38b24a576eb06f33dee1b5e22cff37a086",
+      "files": [
+        "site/layouts/_partials/head/theme-styles.html"
+      ]
+    },
+    {
+      "sha": "dfe77e9c8fdd0d4023045150a63428b55563945d",
+      "subject": "사이트 아이콘 경로를 보정하고 존재하지 않는 매니페스트 요청 제거",
+      "file_count": 1,
+      "additions": 4,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/dfe77e9c8fdd0d4023045150a63428b55563945d",
+      "files": [
+        "site/layouts/_partials/head/custom-icons.html"
+      ]
+    },
+    {
+      "sha": "304f124ccf876f182cce017fc97d8e22677e5c18",
+      "subject": "접근성 및 배포 검증 결과와 추가 확인 항목 기록",
+      "file_count": 2,
+      "additions": 52,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/304f124ccf876f182cce017fc97d8e22677e5c18",
+      "files": [
+        "README.md",
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "a047a8bff6a9b7f49c3875517e45955a0dba7c45",
+      "subject": "로컬 빌드 결과 site/public을 버전 관리에서 제외",
+      "file_count": 1,
+      "additions": 3,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/a047a8bff6a9b7f49c3875517e45955a0dba7c45",
+      "files": [
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "851b07481f9cc736a39d514f5a81d45c6305e65f",
+      "subject": "Hugo 포트폴리오 제작을 대표 활동으로 정리하고 실제 기여와 AI 지원 구분",
+      "file_count": 1,
+      "additions": 41,
+      "deletions": 21,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/851b07481f9cc736a39d514f5a81d45c6305e65f",
+      "files": [
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "1cf83d19d98ea2afe7e13d63acf420f631c0f1af",
+      "subject": "초기 배포 오류 해결과 이후 개선 과정을 학습 기록에 연결",
+      "file_count": 1,
+      "additions": 18,
+      "deletions": 13,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1cf83d19d98ea2afe7e13d63acf420f631c0f1af",
+      "files": [
+        "site/content/posts/first-deployment.md"
+      ]
+    },
+    {
+      "sha": "eacb74e421b9231b7a2f15a500b102bc8f42f1ff",
+      "subject": "화면 모드 버튼을 메뉴로 옮겨 모바일 본문 가림 방지",
+      "file_count": 3,
+      "additions": 9,
+      "deletions": 8,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/eacb74e421b9231b7a2f15a500b102bc8f42f1ff",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/layouts/_partials/float.html",
+        "site/layouts/_partials/header.html"
+      ]
+    },
+    {
+      "sha": "ad6a6aa9b4621a5e63cd3816ef0dd54a50402fe6",
+      "subject": "생성 HTML과 CSS의 파일 경로 및 앵커를 재검사하는 도구 추가",
+      "file_count": 1,
+      "additions": 63,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ad6a6aa9b4621a5e63cd3816ef0dd54a50402fe6",
+      "files": [
+        "verification/check_site.py"
+      ]
+    },
+    {
+      "sha": "49dae4e36f946f5ce5a3133168da5055cb628ec3",
+      "subject": "README에 경로 검사 실행 방법과 검증 범위 안내",
+      "file_count": 1,
+      "additions": 10,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/49dae4e36f946f5ce5a3133168da5055cb628ec3",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "bf4d6d0ab645d0962b3190b0abb8ca9be05e30d8",
+      "subject": "메뉴로 옮긴 화면 모드 버튼의 원본 고정 위치 스타일 해제",
+      "file_count": 1,
+      "additions": 1,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/bf4d6d0ab645d0962b3190b0abb8ca9be05e30d8",
+      "files": [
+        "site/assets/css/portfolio.css"
+      ],
+      "review_note": "Attempted fixed-position CSS repair; browser recheck did not confirm resolution. Later removed after user feedback. Assess as actual debugging attempt, not a proven successful fix."
+    },
+    {
+      "sha": "0883f44407859b53fdc8148d4b8a1d69e9689de3",
+      "subject": "화면을 단순하게 하기 위해 화면 모드 전환 버튼 제거",
+      "file_count": 3,
+      "additions": 1,
+      "deletions": 9,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/0883f44407859b53fdc8148d4b8a1d69e9689de3",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/hugo.toml",
+        "site/layouts/_partials/header.html"
+      ]
+    },
+    {
+      "sha": "ed26b3928500f5b6f8f0cdc3ffaedf8c337d85ab",
+      "subject": "화면별 재검사와 Chrome 확대 피드백 및 링크 응답 결과 기록",
+      "file_count": 2,
+      "additions": 119,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ed26b3928500f5b6f8f0cdc3ffaedf8c337d85ab",
+      "files": [
+        "verification/2026-10-16-links.json",
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "af502caa85eaa0fab4fa727b94a9cafeccb30d96",
+      "subject": "본문 링크 밑줄과 현재 페이지 메뉴 표시로 색상 외 구별 제공",
+      "file_count": 2,
+      "additions": 5,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/af502caa85eaa0fab4fa727b94a9cafeccb30d96",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/layouts/_partials/header.html"
+      ]
+    },
+    {
+      "sha": "c4c3dbca775cd57b790bf209bfce6cc7f8fb0622",
+      "subject": "Chrome 확대 직접 검사와 화면 모드 제거 과정을 활동 기록에 반영",
+      "file_count": 2,
+      "additions": 9,
+      "deletions": 2,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/c4c3dbca775cd57b790bf209bfce6cc7f8fb0622",
+      "files": [
+        "site/content/posts/first-deployment.md",
+        "site/content/projects.md"
+      ]
+    },
+    {
+      "sha": "cf187f8dba52ef971854575ae1fd4aa6f343e82f",
+      "subject": "링크 구별과 대비 계산 및 Enter 이동 새로고침 뒤로가기 검사 기록",
+      "file_count": 1,
+      "additions": 14,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/cf187f8dba52ef971854575ae1fd4aa6f343e82f",
+      "files": [
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "8d6a4da7e535ddcc43f042f8dd7bbdb7bca4fde3",
+      "subject": "설정 페이지에서 밝게 어둡게 기기 설정 선택과 저장 제공",
+      "file_count": 5,
+      "additions": 68,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8d6a4da7e535ddcc43f042f8dd7bbdb7bca4fde3",
+      "files": [
+        "site/assets/css/portfolio.css",
+        "site/assets/js/coder.js",
+        "site/content/settings.md",
+        "site/hugo.toml",
+        "site/layouts/shortcodes/screen-settings.html"
+      ]
+    },
+    {
+      "sha": "1d2ad6334a3be877d0fa0b35c9e436039ef33261",
+      "subject": "설정 모드 전환과 저장 검사 및 Edge 본인 검사 결과 기록",
+      "file_count": 1,
+      "additions": 16,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1d2ad6334a3be877d0fa0b35c9e436039ef33261",
+      "files": [
+        "verification/2026-10-16.md"
+      ]
+    },
+    {
+      "sha": "1e8e545a931986bcac09d0c2f680564496ccfa1b",
+      "subject": "배포 경로 검사기가 정상과 오류 입력을 구별하는 회귀 검사 추가",
+      "file_count": 1,
+      "additions": 43,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/1e8e545a931986bcac09d0c2f680564496ccfa1b",
+      "files": [
+        "verification/test_site_checks.py"
+      ]
+    },
+    {
+      "sha": "8fa5722e441222b43518ef4cbc5a83df5eb4e97b",
+      "subject": "배포 산출물 업로드 전에 회귀 검사와 생성 경로 검사를 필수 실행",
+      "file_count": 2,
+      "additions": 19,
+      "deletions": 1,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8fa5722e441222b43518ef4cbc5a83df5eb4e97b",
+      "files": [
+        ".github/workflows/hugo-pages.yml",
+        "README.md"
+      ]
+    },
+    {
+      "sha": "c1ebd68e5c30b5f4b099ece14fcebac04d816f1d",
+      "subject": "SHA별 변경과 제외 근거를 추출하는 커밋 집계 도구 및 검사 캐시 제외",
+      "file_count": 2,
+      "additions": 49,
+      "deletions": 0,
+      "status": "candidate",
+      "reason": "Actual tracked changes; final rubric review required.",
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/c1ebd68e5c30b5f4b099ece14fcebac04d816f1d",
+      "files": [
+        ".gitignore",
+        "verification/audit_commits.py"
+      ]
+    }
+  ]
+}
