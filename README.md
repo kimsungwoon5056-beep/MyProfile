@@ -56,7 +56,7 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 | 사이트 고유 스타일 | `site/assets/css/portfolio.css` |
 | 메뉴·테마 버튼 등 템플릿 덮어쓰기 | `site/layouts/_partials/` |
 
-`exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 원본 예시 글은 `draft = true`로 보관하며 일반 빌드에는 게시하지 않습니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
+`exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 테마의 예시 글·예시 인물·예시 이미지는 `site`에서 삭제했으며 원본은 `exampleSite`에서 확인할 수 있습니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
 
 수정 후 로컬에서 확인한 다음 저장소 루트에서 변경한 파일만 기록합니다. 예를 들어 소개 파일 수정은 다음과 같습니다.
 
