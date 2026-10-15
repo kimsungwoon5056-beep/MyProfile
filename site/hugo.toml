@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "johndoe"
+title = "김성운의 포트폴리오"
 
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -22,11 +22,11 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "김성운"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "김성운의 학습과 프로젝트 기록"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+info = ["학습과 프로젝트를 소개합니다"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -149,8 +149,7 @@ author = "authors"
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
-url = "https://github.com/johndoe/"
-
+url = "https://github.com/kimsungwoon5056-beep"
 [[params.social]]
 name = "Gitlab"
 icon = "fa-brands fa-gitlab fa-2x"
