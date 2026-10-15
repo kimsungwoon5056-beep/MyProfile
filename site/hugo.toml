@@ -30,7 +30,7 @@ author = "김성운"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "김성운의 학습과 프로젝트 기록"
 keywords = "blog,developer,personal"
-info = ["학습과 프로젝트를 소개합니다"]
+info = ["풀스택 개발자를 목표로 공부하는 전북대학교 컴퓨터인공지능학부 학생입니다", "학습과 프로젝트를 소개합니다"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "2006년 1월 2일"
