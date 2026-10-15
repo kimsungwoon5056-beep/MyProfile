@@ -1,5 +1,6 @@
 ---
 title: "소개"
+description: "김성운의 자기소개, 관심 분야와 선택 이유, 학습 목표와 실행 계획"
 draft: false
 ---
 

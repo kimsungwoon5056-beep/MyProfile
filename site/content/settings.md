@@ -1,5 +1,6 @@
 ---
 title: "설정"
+description: "밝게·어둡게·기기 설정 중 화면 모드를 선택하는 페이지"
 draft: false
 ---
 

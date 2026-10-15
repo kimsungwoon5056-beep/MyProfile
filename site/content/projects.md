@@ -1,5 +1,6 @@
 ---
 title: "프로젝트"
+description: "대표 활동 Hugo 포트폴리오 제작·배포의 목적, 역할, 과정, 결과와 진행 중인 캡스톤"
 draft: false
 ---
 

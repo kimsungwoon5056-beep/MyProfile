@@ -1,5 +1,6 @@
 ---
 title: "Hugo 포트폴리오 첫 배포와 개선 기록"
+description: "Hugo 포트폴리오의 첫 배포 과정과 이후 수정·검증 기록"
 date: 2026-10-15
 draft: false
 ---
