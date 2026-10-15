@@ -1,0 +1,96 @@
+{
+  "time": "2026-10-16T00:56:50.388145",
+  "checks": [
+    {
+      "url": "https://github.com/kimsungwoon5056-beep",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/actions",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/actions"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38719626580",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/actions/runs/38719626580"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/README.md",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/README.md"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/verification/2026-10-16.md",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/verification/2026-10-16.md"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/76892ee",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/76892ee"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8816b84",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/8816b84"
+    },
+    {
+      "url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ad4e8f3",
+      "status": 200,
+      "final_url": "https://github.com/kimsungwoon5056-beep/MyProfile/commit/ad4e8f3"
+    },
+    {
+      "url": "https://github.com/luizdepra/hugo-coder/",
+      "status": 200,
+      "final_url": "https://github.com/luizdepra/hugo-coder/"
+    },
+    {
+      "url": "https://github.com/yoosunu/SimCheong",
+      "status": 200,
+      "final_url": "https://github.com/yoosunu/SimCheong"
+    },
+    {
+      "url": "https://gohugo.io/",
+      "status": 200,
+      "final_url": "https://gohugo.io/"
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/",
+      "status": 200,
+      "final_url": "https://kimsungwoon5056-beep.github.io/MyProfile/"
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/about/",
+      "status": 200,
+      "final_url": "https://kimsungwoon5056-beep.github.io/MyProfile/about/"
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/not-a-real-page/",
+      "status": 404
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/posts/",
+      "status": 200,
+      "final_url": "https://kimsungwoon5056-beep.github.io/MyProfile/posts/"
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/posts/first-deployment/",
+      "status": 200,
+      "final_url": "https://kimsungwoon5056-beep.github.io/MyProfile/posts/first-deployment/"
+    },
+    {
+      "url": "https://kimsungwoon5056-beep.github.io/MyProfile/projects/",
+      "status": 200,
+      "final_url": "https://kimsungwoon5056-beep.github.io/MyProfile/projects/"
+    }
+  ],
+  "timezone": "Asia/Seoul",
+  "method": "Fresh anonymous HTTP GET with Cache-Control: no-cache; not a browser cache-disabled test"
+}
