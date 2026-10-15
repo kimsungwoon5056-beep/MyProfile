@@ -3,6 +3,8 @@ title = "김성운의 포트폴리오"
 
 locale = "ko"
 defaultContentLanguage = "ko"
+# 시간대 없이 적은 글 날짜(예: 2026-10-16)를 UTC가 아닌 한국 시간 0시로 해석한다.
+timeZone = "Asia/Seoul"
 enableEmoji = true
 # 태그·카테고리를 쓰지 않으므로 내용 없는 영어 제목의 분류 목록(/tags/ 등)을 만들지 않는다.
 disableKinds = ["taxonomy", "term"]
