@@ -49,6 +49,7 @@ draft: false
 - [AI 수행 검증 기록](https://github.com/kimsungwoon5056-beep/MyProfile/blob/main/verification/2026-10-16.md): 검사 결과와 미확인 범위를 구분했습니다.
 - [자동 배포 실행 이력](https://github.com/kimsungwoon5056-beep/MyProfile/actions): main push 이후 빌드·배포 결과를 확인할 수 있습니다.
 - [배포 실패와 복구 기록](../posts/deploy-failure-recovery/): 배포 단계 시간 초과와 진행 중 배포 오류를 로그로 확인하고, 다시 배포해 push 자동 배포까지 재확인한 과정입니다.
+- [1440px·390px 결과 화면](https://github.com/kimsungwoon5056-beep/MyProfile/tree/main/verification/screenshots): Edge 기기 모드로 캡처한 이 페이지의 데스크톱·모바일 화면입니다(AI 캡처).
 
 ### 배운 점과 다음 개선
 
