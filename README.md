@@ -47,14 +47,20 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 
 | 수정 대상 | 파일 |
 |---|---|
-| 이름·언어·메뉴·GitHub 링크 | `site/hugo.toml` |
+| 이름·언어·메뉴·GitHub 링크, 생성하지 않을 페이지 종류 | `site/hugo.toml` |
 | 운영 주소와 빌드 설정 | `site/pages.json` |
 | 자기소개·관심 분야·학습 계획 | `site/content/about.md` |
-| 캡스톤 소개와 본인 역할 | `site/content/projects.md` |
+| 대표 활동·캡스톤 소개와 본인 역할 | `site/content/projects.md` |
 | 학습 글과 목록 | `site/content/posts/` |
+| 설정 페이지 본문 | `site/content/settings.md` |
+| 화면 모드 선택 버튼(밝게·어둡게·기기 설정) | `site/layouts/shortcodes/screen-settings.html` |
+| 화면 모드 저장·적용 스크립트 | `site/assets/js/coder.js` |
 | 이미지 등 정적 파일 | `site/static/` |
 | 사이트 고유 스타일 | `site/assets/css/portfolio.css` |
-| 메뉴·테마 버튼 등 템플릿 덮어쓰기 | `site/layouts/_partials/` |
+| 상단 메뉴와 현재 페이지 표시 | `site/layouts/_partials/header.html` |
+| 글꼴·아이콘·아바타 출력 덮어쓰기 | `site/layouts/_partials/head/`, `site/layouts/_partials/home/avatar.html` |
+| 테마 기본 플로팅 화면 모드 버튼 끄기 | `site/layouts/_partials/float.html` |
+| 테마에서 영어로 남은 문구의 한국어 번역 | `site/i18n/ko.toml` |
 
 `exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 테마의 예시 글·예시 인물·예시 이미지는 `site`에서 삭제했으며 원본은 `exampleSite`에서 확인할 수 있습니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
 
