@@ -3,7 +3,7 @@
     <a class="navigation-title" href="{{ absLangURL "" }}">{{ .Site.Title }}</a>
     <ul class="navigation-list">
       {{ range .Site.Menus.main }}
-      <li class="navigation-item"><a class="navigation-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+      <li class="navigation-item"><a class="navigation-link" href="{{ .URL | relLangURL }}"{{ if eq $.RelPermalink (.URL | relLangURL) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     </ul>
   </section>

@@ -10,3 +10,7 @@ body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visibl
 .content p, .content li, .content h1, .content h2, .content h3 { overflow-wrap: anywhere; }
 .content img { max-width: 100%; height: auto; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+
+/* Links remain identifiable without relying on color alone. */
+.content p a, .content li a, footer a { text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: .08em; }
+.portfolio-navigation a[aria-current="page"] { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: .15em; }
