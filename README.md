@@ -58,6 +58,7 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 | 이미지 등 정적 파일 | `site/static/` |
 | 사이트 고유 스타일 | `site/assets/css/portfolio.css` |
 | 상단 메뉴와 현재 페이지 표시 | `site/layouts/_partials/header.html` |
+| 푸터와 맨 위로 링크 | `site/layouts/_partials/footer.html` |
 | 글꼴·아이콘·아바타 출력 덮어쓰기 | `site/layouts/_partials/head/`, `site/layouts/_partials/home/avatar.html` |
 | 테마 기본 플로팅 화면 모드 버튼 끄기 | `site/layouts/_partials/float.html` |
 | 테마에서 영어로 남은 문구의 한국어 번역 | `site/i18n/ko.toml` |

@@ -18,3 +18,5 @@ body.colorscheme-dark a:focus-visible, body.colorscheme-dark button:focus-visibl
 .screen-settings { display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0; }
 .screen-settings button { font: inherit; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: .5rem; padding: .7rem 1.4rem; min-height: 4.4rem; cursor: pointer; }
 .screen-settings button[aria-pressed="true"] { font-weight: 700; border-width: 3px; text-decoration: underline; text-underline-offset: .2em; }
+.footer .back-to-top { margin: 0 0 .8rem; }
+.footer .back-to-top a { display: inline-flex; align-items: center; gap: .4rem; min-height: 4.4rem; padding: 0 .6rem; }
