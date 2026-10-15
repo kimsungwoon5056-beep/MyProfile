@@ -65,7 +65,7 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 | 테마 기본 플로팅 화면 모드 버튼 끄기 | `site/layouts/_partials/float.html` |
 | 테마에서 영어로 남은 문구의 한국어 번역 | `site/i18n/ko.toml` |
 
-`exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 테마의 예시 글·예시 인물·예시 이미지는 `site`에서 삭제했으며 원본은 `exampleSite`에서 확인할 수 있습니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
+`exampleSite`와 저장소 루트의 테마 파일은 원본 참고용입니다. 실제 배포 대상인 `site`를 수정합니다. 테마의 예시 글·예시 인물·예시 이미지는 `site`에서 삭제했으며 원본은 `exampleSite`에서 확인할 수 있습니다. 테마 저장소 운영용 GitHub 파일(`.github/FUNDING.yml`, `ISSUE_TEMPLATE`, `pull_request_template.md`)은 이 저장소에 테마 제작자 후원 버튼과 테마 기여용 양식을 띄우므로 삭제했습니다. 라이선스(`LICENSE.md`)와 테마 원본 코드는 그대로 유지합니다. `public`은 생성 결과이므로 직접 수정하지 않습니다.
 
 새 학습 글은 `site/content/posts/`에 Markdown 파일로 추가하고 앞부분에 `title`, `description`, `date`, `draft: false`를 적습니다. `site/hugo.toml`의 `timeZone = "Asia/Seoul"` 때문에 `date: 2026-10-16`처럼 시간대 없이 적은 날짜는 한국 시간 0시로 해석됩니다. 날짜가 현재 시각보다 미래이면 글이 생성되지 않으므로, 목록에 보이지 않으면 `hugo list future --config hugo.toml,pages.json`으로 확인합니다.
 
