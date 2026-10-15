@@ -41,6 +41,8 @@ hugo server --config hugo.toml,pages.json --baseURL http://localhost:1313/MyProf
 
 `.github/workflows/hugo-pages.yml`은 main push를 받아 사이트를 빌드하고 GitHub Pages에 배포합니다. 현재 지정값은 Python 3.12, Node.js 24, Go 1.27.1, Hugo Extended 0.167.0, Dart Sass 1.105.0입니다. 의존성 준비와 경로 보정은 `.github/pages_build.py`가 수행합니다. 준비 스크립트 버전은 3.1입니다.
 
+빌드 단계는 `HUGO_PARAMS_DEPLOYSHA`에 배포하는 커밋 SHA를 넘기고, 공개 사이트 푸터에 `배포 버전 1234abc` 형태로 표시합니다. 보고서에 적은 최종 SHA와 공개 화면의 배포 버전이 같은지 이 표시로 확인합니다. 로컬 빌드에는 이 값이 없으므로 표시되지 않습니다.
+
 새 ZIP으로 처음 준비할 때는 Python 3.9 이상에서 제공된 `prepare_github_pages.py`를 사용했습니다. 이 저장소를 clone한 뒤에는 준비 스크립트를 다시 실행할 필요가 없습니다.
 
 ## 수정과 재배포

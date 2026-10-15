@@ -46,6 +46,8 @@ jobs:
       - name: Build and fix project URL paths
         env:
           SITE_BASE_URL: ${{ steps.pages.outputs.base_url }}
+          # 푸터의 '배포 버전'에 표시할 커밋(site/layouts/_partials/footer.html)
+          HUGO_PARAMS_DEPLOYSHA: ${{ github.sha }}
         run: python .github/pages_build.py --build
       - name: Test site checker
         run: python -m unittest discover -s verification -p 'test_*.py' -v

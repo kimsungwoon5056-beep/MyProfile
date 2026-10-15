@@ -14,6 +14,10 @@
     ·
     {{ end }}
     {{ i18n "powered_by" }} <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    {{/* Actions가 HUGO_PARAMS_DEPLOYSHA로 넘긴 커밋을 표시해 공개 화면과 제출 SHA를 대조할 수 있게 한다. 로컬 빌드에는 표시하지 않는다. */}}
+    {{ with site.Params.deploySha }}
+      · 배포 버전 <a href="{{ site.Params.commit }}{{ . }}">{{ substr . 0 7 }}</a>
+    {{ end }}
     {{ if (and .Site.Params.commit .GitInfo) }}
       [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>]
     {{ end }}
